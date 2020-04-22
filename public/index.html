@@ -32,7 +32,6 @@
 		<!-- Header -->
 		<header id="header">
 			<div class="logo">
-				<span class="icon fa-gem"></span>
 			</div>
 			<div class="content">
 				<div class="inner">
@@ -45,7 +44,7 @@
 				<ul>
 					<li><a href="#intro">Nosotros</a></li>
 					<li><a href="#work">Online</a></li>
-					<li><a href="#about">Radio</a></li>
+					<li><a href="#radio">Radio</a></li>
 					<li><a href="#contact">Contacto</a></li>
 					<!--<li><a href="#elements">Elements</a></li>-->
 				</ul>
@@ -76,7 +75,7 @@
 			<!-- Work -->
 			<article id="work">
 				<h2 class="major">Online</h2>
-				<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+				<span class="image main"><img src="images/quedate-en-casa.png" alt="" /></span>
 				<h2 class="major">#quedateencasa</h2>
 				<p>Estamos viviendo momentos difíciles por el Coronavirus - COVID-19. Tenemos FE que Dios tiene el control de
 					todo. Mientras tanto queremos asegurarte que el mensaje seguirá llegando a tu casa en sus diferentes
@@ -107,19 +106,16 @@
 			</article>
 
 			<!-- About -->
-			<article id="about">
-				<h2 class="major">About</h2>
-				<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-				<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend
-					sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam.
-					Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis
-					in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+			<article id="radio">
+				<h2 class="major">Radio</h2>
+				<iframe src="https://www.radioking.com/widgets/player/player.php?id=307946&c=%232F3542&c2=%23FF4757&f=h&i=1&ii=null&p=1&s=0&li=1&popup=1&plc=NaN&h=undefined&l=560&a=0&v=2" style="border-radius: 5px; width: 560px; height: 145px; min-width: 470px; min-height: 0; " frameBorder="0" ></iframe>
+				<p style="margin-top: 30px;">Conéctate con Dios con la mejor programación las 24 horas, 7 días a la semana</p>
 			</article>
 
 			<!-- Contact -->
 			<article id="contact">
 				<h2 class="major">Contacto</h2>
-				<form method="post" action="#">
+				<form id="sendEmailForm" name="sendEmailForm">
 					<div class="fields">
 						<div class="field half">
 							<label for="name">Nombre</label>
@@ -408,6 +404,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
+	<script async src="https://smtpjs.com/v3/smtp.js"></script>
 	<script src="assets/js/browser.min.js"></script>
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
