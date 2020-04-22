@@ -662,6 +662,7 @@ input, select, textarea {
 		.image img {
 			border-radius: 4px;
 			display: block;
+			mix-blend-mode: lighten;
 		}
 
 		.image.left, .image.right {
