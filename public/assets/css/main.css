@@ -106,6 +106,10 @@ input, select, textarea {
 	background-position: center !important;
 }
 
+.rounded-images img {
+	border-radius: 15px;
+}
+
 /* Basic */
 
 	@-ms-viewport {
