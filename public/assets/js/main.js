@@ -25,6 +25,11 @@
 		});
 
 		$(document).ready(function () {
+			$('.image.fit').on('click', function(e) {
+				console.log('esto se hace');
+				e.preventDefault();
+			});
+
 			$('#sendEmailForm').submit(function (e) {
 				e.preventDefault();
 				var data = $('#sendEmailForm').serializeArray().reduce(function (obj, item) {
